@@ -9,11 +9,17 @@ An AI-powered agent for classifying prompts using DSPy and ollama.
    ```bash
    pip install -r requirements.txt
    ```
-3. Copy `.env.example` to `.env` and fill in your API keys
-4. Run the tests:
-   ```bash
-   pytest
-   ```
+3. Copy `.env` and fill in your API keys
+
+4. Configure ollama locally
+   on mac run
+   brew install ollama
+
+   in another terminal(start ollama server locally and keep it running)
+   ollama serve
+
+   Now pull the model
+   ollama pull phi3
 
 ## Environment Variables
 
