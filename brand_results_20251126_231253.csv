@@ -4,9 +4,7 @@ prompt_id,prompt_text,extracted_brands,extracted_category
 3,Can you compare the smart features of Samsung Smart TVs and Sony Bravia?,Samsung (1.0) | Sony (1.0) | Smart TVs (0.6) | Bravia (0.6),Electronics
 4,Can you help me choose between Samsung’s The Frame and Sony’s A80L for a living room setup?,Samsung (1.0) | Sony (1.0) | A80L (0.6) | The Frame (0.6),General
 5,Can you help me write a script for a podcast episode on media literacy?,NPR (0.6) | PBS (0.6),Education
-6,Can you list the top-rated 4K projectors for home cinema from brands like Epson,"Epson (0.6) | separated by commas (0.4) | {brands} (0.4) | no additional information or sentences are required for these fields only company names should be listed without repetition and ensuring the list is not exhaustive. The `completed` field will signal completion of your response with a unique marker that does not interfenerate with any brand name provided in the brands section.
-
-### User: (0.4)",Electronics
+6,Can you list the top-rated 4K projectors for home cinema from brands like Epson,Epson (0.6) | separated by commas (0.4) | {brands} (0.4),Electronics
 7,Can you summarize the most discussed topics in entertainment news this week?,Netflix (0.6) | Disney+ (0.6) | HBO Max (0.6),Entertainment
 8,How are augmented reality and virtual reality being used in media storytelling?,DreamWorks Animation (0.6) | Pixar Animation Studios (0.6) | Walt Disney Company (0.6) | Universal Pictures (0.6),General
 9,How can we detect deepfakes and AI-generated misinformation in news media?,Google (0.6) | Facebook (0.6) | Twitter (0.6),General
